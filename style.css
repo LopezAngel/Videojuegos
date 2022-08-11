@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2? family= Blaka & family= Langosta & display=swap');
+
+body{
+    background-image: url(juegos-de-arcade-portada.jpg);
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h2{
+    font-family: 'Blaka', cursive;
+    /*font-family: 'Lobster', cursive;*/
+    color: white;
+    text-align: center;
+}
+
+hr{
+   border: 1px dotted blue; 
+}
+
+ul{
+    background-color:azure;
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li{
+    margin-right: 300px;
+}
+
+ul > li a{
+    /* remover */
+    text-decoration: none;
+}
+
+.audiovideo{
+    background-color: azure;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
